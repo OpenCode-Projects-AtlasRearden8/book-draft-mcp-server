@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "book": {
+    "title": "The Massive AI Manual (Sample Draft)",
+    "subtitle": "AI explained like a friend would",
+    "word_target_total": 60000,
+    "deadline": "2027-03-31"
+  },
+  "chapters": [
+    {
+      "id": "ch01",
+      "title": "What AI Actually Is",
+      "status": "final",
+      "target_words": 6000,
+      "actual_words": 6100,
+      "position": 1,
+      "progress": 101.7
+    },
+    {
+      "id": "ch02",
+      "title": "Talking to Chatbots without Fear",
+      "status": "revising",
+      "target_words": 7000,
+      "actual_words": 5200,
+      "position": 2,
+      "progress": 74.3
+    },
+    {
+      "id": "ch03",
+      "title": "Agents and MCP, in Plain English",
+      "status": "drafting",
+      "target_words": 8000,
+      "actual_words": 2400,
+      "position": 3,
+      "progress": 30.0
+    },
+    {
+      "id": "ch04",
+      "title": "Running AI on Your Own Computer",
+      "status": "not_started",
+      "target_words": 7000,
+      "actual_words": 0,
+      "position": 4,
+      "progress": 0.0
+    },
+    {
+      "id": "ch05",
+      "title": "Free AI Coding Tools for Non-Programmers",
+      "status": "not_started",
+      "target_words": 7000,
+      "actual_words": 0,
+      "position": 5,
+      "progress": 0.0
+    },
+    {
+      "id": "ch06",
+      "title": "Privacy Basics: What Not to Paste",
+      "status": "not_started",
+      "target_words": 5000,
+      "actual_words": 0,
+      "position": 6,
+      "progress": 0.0
+    }
+  ],
+  "sprints": [
+    {
+      "id": 3,
+      "chapter": "ch03",
+      "date": "2026-10-20",
+      "words_written": 400,
+      "minutes": 25,
+      "note": "MCP intro finally clicked."
+    },
+    {
+      "id": 2,
+      "chapter": "ch03",
+      "date": "2026-10-19",
+      "words_written": 250,
+      "minutes": 15,
+      "note": "Slow start, still counts."
+    },
+    {
+      "id": 1,
+      "chapter": "ch02",
+      "date": "2026-10-18",
+      "words_written": 900,
+      "minutes": 50,
+      "note": "Rewrote the examples section."
+    }
+  ],
+  "revision_notes": [
+    {
+      "id": 2,
+      "chapter": "ch02",
+      "note": "The metaphor list is too long; cut to three examples max.",
+      "reply_to": 1,
+      "status": "open"
+    },
+    {
+      "id": 1,
+      "chapter": "ch02",
+      "note": "Chapter reads stiff in the opening two pages; make it friendlier.",
+      "reply_to": null,
+      "status": "open"
+    },
+    {
+      "id": 3,
+      "chapter": "ch01",
+      "note": "Fact-check the model names before final.",
+      "reply_to": null,
+      "status": "resolved"
+    }
+  ]
+}
